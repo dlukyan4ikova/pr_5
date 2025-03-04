@@ -1,6 +1,10 @@
 password1 = input("Введите пароль: ")
-password2 = input("Подтвердите пароль: ")
-if password1 == password2:
-    print("Пароль принят")
+
+if len(password1) < 6:
+    print("Пароль ненадежный. Повторите попытку.")
 else:
-    print("Пароль не принят")
+    password2 = input("Повторите пароль: ")
+    if password1 == password2:
+        print("Пароль принят.")
+    else:
+        print("Пароль не принят.")
