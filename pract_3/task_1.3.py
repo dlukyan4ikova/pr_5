@@ -7,4 +7,4 @@ else:
     if password1 == password2:
         print("Пароль принят.")
     else:
-        print("Пароль не принят.")
+      print("Пароль не принят.")
