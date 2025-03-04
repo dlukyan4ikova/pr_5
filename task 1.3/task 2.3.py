@@ -13,7 +13,6 @@ def tip_mesta(mesto):
         else:
             return "Верхнее боковое"
 
-# Запрашиваем номер места у пользователя
 mesto = int(input("Введите номер места: "))
 mesto = tip_mesta(mesto)
 print(mesto)
