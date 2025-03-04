@@ -1,5 +1,5 @@
-first = str(input("Введите цвет1: "))
-two = str(input("Введите цвет2: "))
+first = str(input("Введите цвет 1: "))
+two = str(input("Введите цвет 2: "))
 
 if (first == "красный" and two == "желтый") or (first == "желтый" and two == "красный"):
     print (f"При смешивании цветов: {first} и {two}, мы получим оранжевый цвет")
