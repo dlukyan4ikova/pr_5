@@ -1,5 +1,4 @@
 def rarely_word(word):
-
     if not word.isalpha():
         print("Ошибка: введены не буквенные символы!")
         return
