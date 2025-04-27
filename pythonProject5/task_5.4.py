@@ -1,5 +1,4 @@
 import random
-
 def math_game():
     trueAnsw = 0
     falseAnsw = 0
