@@ -1,5 +1,4 @@
 words = []
-
 while True:
         vvod = input()
 
